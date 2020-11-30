@@ -1,0 +1,23 @@
+<?php
+class kendaraan{
+
+  var $warna;
+  var $merek;
+  var $ukuran;
+  
+  function __construct(){
+   echo "merek <br/>";
+   
+  }
+  
+  function tampilkan_warna(){
+   return "Biru <br/>";
+   
+  }
+  
+}
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilkan_warna();
+
+?>
