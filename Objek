@@ -1,0 +1,32 @@
+<?php
+class kendaraan{
+
+    var $warna;
+    var $merek;
+    var $ukuran;
+    
+    function tampilkan_warna(){
+        return "Biru <br/>";
+       
+}
+
+    function merek_motor(){
+        return "Honda<br/>";
+       
+}
+
+    function ukuran_motor(){
+        return "J 1,240 mm, P 1,859 mm, L 676 mm, T 1,053 mm <br/>";
+    }  
+          
+}
+
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilkan_warna();
+
+echo $kendaraan->merek_motor();
+
+echo $kendaraan->ukuran_motor();
+
+?>
