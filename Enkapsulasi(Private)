@@ -1,0 +1,16 @@
+<?php
+class kendaraan{
+
+    private $warna;
+    
+    public function tampilkan_warna(){
+       return "Pink" $this->warna;
+    
+    }
+      
+}
+$kendaraan = new kendaraan();
+
+echo $kendaraan->tampilan_warna();
+
+?>
