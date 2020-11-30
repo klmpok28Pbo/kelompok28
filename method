@@ -1,0 +1,24 @@
+<?php 
+
+class kendaraan
+
+   var $warna;
+   var $merek;
+   var $ukuran;
+   
+   
+   function warna(){
+      return "Biru <br/>";
+      
+}
+   function merek(){
+      return "Honda <br/>";
+      
+      }
+      
+   function ukuran(){
+      return "J 1,240 mm, P 1,859 mm L 676 mm,T 1.050 mm <br/>";
+   }
+}
+
+ ?>        
