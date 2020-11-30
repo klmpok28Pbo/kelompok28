@@ -1,0 +1,32 @@
+<?php
+   
+ class manusia {
+ 
+public $nama_saya;
+
+function berinama($saya) {
+   $this->nama_saya=$saya;
+ }
+ 
+}
+
+class teman extends manusia{
+
+    public $nama_teman;
+    
+     
+    function berinamateman ($teman) {
+       $this->nama_teman=$teman;
+    }
+  }
+  
+  $malasngoding = new teman;
+  
+  $malasngoding->beriman(" motor ");
+  $malasngoding->berinamateman(" biru ");
+  
+   
+  echo "class kendaraan :" . $malasngoding->nama_saya . "<br/>";
+  echo "warna :" . $malasngoding->nama_teman;
+  
+   ?>
