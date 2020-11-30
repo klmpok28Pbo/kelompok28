@@ -1,0 +1,19 @@
+<?php
+class kendaraan{
+
+   public $warna;
+   public $merek;
+   public $ukuran;
+   
+   function tampilkan_warna(){
+       return "Biru br/>";
+        
+   }
+          
+}
+   
+$kendaraan = new kendaraan();
+   
+echo $kendaraan->tampilkan_warna();
+   
+?>
